@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 gem 'mysql2', group: :development # MYSQL in development
-gem 'pg', group: :production # PostgreSQL required for Heroku
+# gem 'pg', group: :production # PostgreSQL required for Heroku
 gem 'rails_12factor', group: :production # Heroku requirement
 gem "figaro", github: 'laserlemon/figaro' # for environment variables
 gem 'friendly_id' # for user slugs
